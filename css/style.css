@@ -70,7 +70,7 @@ h4 {
 h5 {
 	font-size: 18px;
 }
-p {
+p, ul, ol {
 	font: 14px/1.5em "Roboto";
 }
 .navbar-nav > li > a {
@@ -461,7 +461,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 
 /* Begin cta section */
-#cta-section {
+#cta-section, .cta-section .cta {
 	padding: 70px 0 80px;
 }
 .cta-btn {
@@ -948,7 +948,11 @@ ul.imp-links li a {
 	padding: 0;
 	border: none;
 }
-.page-header h2 {
+.section-page-title .page-header {
+	margin-bottom: 0;
+}
+.page-header h2,
+.page-header h1 {
 	text-transform: uppercase;
 }
 p.subtitle {
